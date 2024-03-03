@@ -1,0 +1,60 @@
+body {
+  background: rgb(228, 190, 120);
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+h2 {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100x;
+  border-radius: 30px;
+}
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+button {
+  display: block;
+  margin: auto;
+  background-color: grey;
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0, 9;
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+  padding: 30px 60px;
+  max-width: 800px;
+}
+
+.read-button {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.read-button:hover {
+  text-decoration: underline;
+}
+.footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+}
